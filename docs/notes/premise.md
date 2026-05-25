@@ -27,13 +27,57 @@ It's time for the next Ring, and tensions between factions have never been highe
 The player is a seventeen-year-old named Luke or Trish. Since battling is slightly taboo in Kosis, they have not received a Pokemon of their own yet, nor have they befriended one since they traditionally stay away. The unchosen gender is the player’s fraternal twin sibling. Their father is a veteran of the Troubles, and their mother runs a store and inn, but their father takes over when she's gone. *Secretly, their parents were the Challenger and Rival; due to the old mask tradition, few know this.*
 
 ## The Pokemon Ring
-Traditionally parents of Challengers provide an heirloom Pokemon as their starter.
+- Traditionally parents of Challengers provide an heirloom Pokemon as their starter.
+- The Ring doesn't need to be done in a specific order.
 
 # Story
 The game begins on the day of the Challenger Festival, which begins the Pokemon Ring for the year, in a Separatist town. As twins, both siblings are made Challengers. They do some sort of game before it officially begins. Their parents allow them both to select a Pokemon for their starter, either:
 - Snivy (Grass), Fennekin (Fire/Psychic), Piplup (Water/Steel)
 - Leafawn/stag/moose (fawn/deer/moose) *(Grass/Steel)*, Flikker/Flairy/Feullet (ball/spookyball/will-o-wisp) *(Fire/Fairy)*, //Sonarca (manatee calf/beluga/orca) *(Water/Ice)*
+
 The player's twin takes the type advantage, and their mother takes the type disadvantage, which can be seen at home the rest of the game and evolves after certain badges; this is because she is fighting Conjure in the background.
+
+The player begins the Ring, and their twin splits up to begin too. There are other Challengers beginning in other places.
+
+In brief:
+1. Rural town, Separatist.
+1. Rural Normal City, Unionist.
+    - Normal Gym
+1. Forest 1st half
+    - Team encounter
+1. Forest Bug Town, Unionist.
+    - Bug Gym
+1. Forest 2nd half
+1. Cave
+1. Cave village, Unionist.
+    - Team encounter
+1. Valley Dark Town, Separatist.
+    - Dark Gym
+1. Mountain
+1. Mountain Fire Town, Unionist.
+    - Fire Gym
+1. River
+1. Desert
+1. Big Crater
+1. Desert Psychic Town, Separatist.
+    - Psychic Gym
+1. Desert
+1. Desert Cave
+1. Oasis Fairy Town, Unionist.
+    - Fairy Gym
+1. Ocean
+1. Island
+1. Peak Flying Town, Unionist.
+    - Flying Gym
+1. Ocean
+1. Island Ghost Town, Separatist.
+    - Ghost Gym
+1. Ocean
+1. Mountain
+1. Volcano
+1. Volcano Town, Unionist.
+    - Elite 4
+    - Champion (Team Rival)
 
 ## Locations
 - ? Burning town; one side set fire pokemon loose on it, and now ghost pokemon roam too. Rage spotted.
@@ -41,7 +85,9 @@ The player's twin takes the type advantage, and their mother takes the type disa
 
 ## Characters
 - Mom: Former Challenger. Runs a store and inn. Her partner Pokemon during the Ring was a Mismagius.
-- Dad: Former Challenger, veteran of the Troubles. Helps Mom. His partner Pokemon during the Ring was a Kilowattrel. 
+- Dad: Former Challenger, veteran of the Troubles. Helps Mom. His partner Pokemon during the Ring was a Kilowattrel.
+- Twin: Current Challenger. Somewhat serious, somewhat competitive. Rival.
+- Team Rival: Current Challenger, secretly working for Team Conjure. Trying to beat the Champion so he can destabilize the factions.
 
 # Battles
 ## Gyms

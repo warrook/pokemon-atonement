@@ -249,6 +249,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GRASS_STAGE_ONE] =
     {
+        .baseHP        = 48,
+        .baseAttack    = 44,
+        .baseDefense   = 69,
+        .baseSpeed     = 48,
+        .baseSpAttack  = 42,
+        .baseSpDefense = 58,
         .types = MON_TYPES(TYPE_GRASS),
         .catchRate = 45,
         .expYield = 64,
@@ -266,6 +272,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GRASS_STAGE_TWO] =
     {
+        .baseHP        = 63,
+        .baseAttack    = 59,
+        .baseDefense   = 91,
+        .baseSpeed     = 63,
+        .baseSpAttack  = 56,
+        .baseSpDefense = 77,
         .types = MON_TYPES(TYPE_GRASS),
         .catchRate = 45,
         .expYield = 64,
@@ -283,7 +295,23 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_GRASS_STAGE_THREE] = 
     {
+        .baseHP        = 82,
+        .baseAttack    = 76,
+        .baseDefense   = 118,
+        .baseSpeed     = 82,
+        .baseSpAttack  = 72,
+        .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_GRASS, TYPE_STEEL),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Defense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_OVERGROW, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GREEN,
     },
 
     [SPECIES_GRASS_MEGA] =
@@ -293,6 +321,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FIRE_STAGE_ONE] =
     {
+        .baseHP        = 47,
+        .baseAttack    = 35,
+        .baseDefense   = 45,
+        .baseSpeed     = 59,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 54,
         .types = MON_TYPES(TYPE_FIRE),
         .catchRate = 45,
         .expYield = 64,
@@ -310,6 +344,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FIRE_STAGE_TWO] =
     {
+        .baseHP        = 63,
+        .baseAttack    = 46,
+        .baseDefense   = 60,
+        .baseSpeed     = 78,
+        .baseSpAttack  = 91,
+        .baseSpDefense = 72,
         .types = MON_TYPES(TYPE_FIRE),
         .catchRate = 45,
         .expYield = 64,
@@ -327,7 +367,23 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FIRE_STAGE_THREE] =
     {
+        .baseHP        = 81,
+        .baseAttack    = 60,
+        .baseDefense   = 77,
+        .baseSpeed     = 101,
+        .baseSpAttack  = 118,
+        .baseSpDefense = 93,
         .types = MON_TYPES(TYPE_FIRE, TYPE_FAIRY),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_BLAZE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_RED,
     },
 
     [SPECIES_FIRE_MEGA] =
@@ -337,6 +393,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_WATER_STAGE_ONE] =
     {
+        .baseHP        = 46,
+        .baseAttack    = 63,
+        .baseDefense   = 49,
+        .baseSpeed     = 68,
+        .baseSpAttack  = 39,
+        .baseSpDefense = 46,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
         .expYield = 64,
@@ -354,6 +416,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_WATER_STAGE_TWO] =
     {
+        .baseHP        = 60,
+        .baseAttack    = 84,
+        .baseDefense   = 64,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 51,
+        .baseSpDefense = 61,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
         .expYield = 64,
@@ -370,6 +438,27 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
     [SPECIES_WATER_STAGE_THREE] =
+    {
+        .baseHP        = 78,
+        .baseAttack    = 108,
+        .baseDefense   = 83,
+        .baseSpeed     = 116,
+        .baseSpAttack  = 66,
+        .baseSpDefense = 79,
+        .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_TORRENT, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLUE,
+    },
+
+    [SPECIES_WATER_MEGA] =
     {
         .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
     },
