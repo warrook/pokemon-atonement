@@ -246,6 +246,133 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //.perfectIVCount = NUM_STATS,
     },
     */
+
+    [SPECIES_GRASS_STAGE_ONE] =
+    {
+        .types = MON_TYPES(TYPE_GRASS),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Defense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_OVERGROW, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GREEN,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GRASS_STAGE_TWO}),
+    },
+
+    [SPECIES_GRASS_STAGE_TWO] =
+    {
+        .types = MON_TYPES(TYPE_GRASS),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Defense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_OVERGROW, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GREEN,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_GRASS_STAGE_THREE}),
+    },
+
+    [SPECIES_GRASS_STAGE_THREE] = 
+    {
+        .types = MON_TYPES(TYPE_GRASS, TYPE_STEEL),
+    },
+
+    [SPECIES_GRASS_MEGA] =
+    {
+        .types = MON_TYPES(TYPE_GRASS, TYPE_STEEL),
+    },
+
+    [SPECIES_FIRE_STAGE_ONE] =
+    {
+        .types = MON_TYPES(TYPE_FIRE),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_BLAZE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_RED,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_FIRE_STAGE_TWO}),
+    },
+
+    [SPECIES_FIRE_STAGE_TWO] =
+    {
+        .types = MON_TYPES(TYPE_FIRE),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_BLAZE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_RED,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_FIRE_STAGE_THREE}),
+    },
+
+    [SPECIES_FIRE_STAGE_THREE] =
+    {
+        .types = MON_TYPES(TYPE_FIRE, TYPE_FAIRY),
+    },
+
+    [SPECIES_FIRE_MEGA] =
+    {
+        .types = MON_TYPES(TYPE_FIRE, TYPE_FAIRY),
+    },
+
+    [SPECIES_WATER_STAGE_ONE] =
+    {
+        .types = MON_TYPES(TYPE_WATER),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_TORRENT, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLUE,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_WATER_STAGE_TWO}),
+    },
+
+    [SPECIES_WATER_STAGE_TWO] =
+    {
+        .types = MON_TYPES(TYPE_WATER),
+        .catchRate = 45,
+        .expYield = 64,
+        //.evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
+        .abilities = { ABILITY_TORRENT, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLUE,
+
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_WATER_STAGE_THREE}),
+    },
+
+    [SPECIES_WATER_STAGE_THREE] =
+    {
+        .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
+    },
 };
 
 const struct EggData gEggDatas[EGG_ID_COUNT] =
