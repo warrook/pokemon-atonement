@@ -1690,27 +1690,27 @@
 
 // Custom
 
-#define SPECIES_GRASS_STAGE_ONE                 1573
-#define SPECIES_GRASS_STAGE_TWO                 1574
-#define SPECIES_GRASS_STAGE_THREE               1575
-#define SPECIES_GRASS_MEGA                      1576
-#define SPECIES_FIRE_STAGE_ONE                  1577
-#define SPECIES_FIRE_STAGE_TWO                  1578
-#define SPECIES_FIRE_STAGE_THREE                1579
-#define SPECIES_FIRE_MEGA                       1580
-#define SPECIES_WATER_STAGE_ONE                 1581
-#define SPECIES_WATER_STAGE_TWO                 1582
-#define SPECIES_WATER_STAGE_THREE               1583
-#define SPECIES_WATER_MEGA                      1584
+#define SPECIES_GRASS_STAGE_ONE                         1573
+#define SPECIES_GRASS_STAGE_TWO                         1574
+#define SPECIES_GRASS_STAGE_THREE                       1575
+#define SPECIES_GRASS_MEGA                              1576
+#define SPECIES_FIRE_STAGE_ONE                          1577
+#define SPECIES_FIRE_STAGE_TWO                          1578
+#define SPECIES_FIRE_STAGE_THREE                        1579
+#define SPECIES_FIRE_MEGA                               1580
+#define SPECIES_WATER_STAGE_ONE                         1581
+#define SPECIES_WATER_STAGE_TWO                         1582
+#define SPECIES_WATER_STAGE_THREE                       1583
+#define SPECIES_WATER_MEGA                              1584
 
-#define SPECIES_RAGE                            (SPECIES_WATER_MEGA + 1)
-#define SPECIES_RAPTURE                         (SPECIES_RAGE + 1)
-#define SPECIES_TERROR                          (SPECIES_RAPTURE + 1)
-#define SPECIES_PRIME                           (SPECIES_TERROR + 1)
+#define SPECIES_VIMMA                                   (SPECIES_WATER_MEGA + 1)
+#define SPECIES_HULLUUS                                 (SPECIES_VIMMA + 1)
+#define SPECIES_KAMMO                                   (SPECIES_HULLUUS + 1)
+#define SPECIES_TOSITELLA                               (SPECIES_KAMMO + 1)
 
 // End Custom
 
-#define SPECIES_EGG                                     (SPECIES_PRIME + 1)
+#define SPECIES_EGG                                     (SPECIES_TOSITELLA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

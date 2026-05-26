@@ -317,6 +317,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_GRASS_MEGA] =
     {
         .types = MON_TYPES(TYPE_GRASS, TYPE_STEEL),
+        .isMegaEvolution = TRUE,
     },
 
     [SPECIES_FIRE_STAGE_ONE] =
@@ -389,6 +390,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_FIRE_MEGA] =
     {
         .types = MON_TYPES(TYPE_FIRE, TYPE_FAIRY),
+        .isMegaEvolution = TRUE,
     },
 
     [SPECIES_WATER_STAGE_ONE] =
@@ -461,7 +463,42 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_WATER_MEGA] =
     {
         .types = MON_TYPES(TYPE_WATER, TYPE_ICE),
+        .isMegaEvolution = TRUE,
     },
+
+    // ...
+
+    [SPECIES_VIMMA] =
+    {
+        .types = MON_TYPES(TYPE_FIRE, TYPE_GHOST),
+        .speciesName = _("Vimma"),
+        .categoryName = _("Rage"),
+
+    },
+
+    [SPECIES_HULLUUS] =
+    {
+        .types = MON_TYPES(TYPE_POISON, TYPE_GHOST),
+        .speciesName = _("Hulluus"),
+        .categoryName = _("Rapture"),
+
+    },
+
+    [SPECIES_KAMMO] =
+    {
+        .types = MON_TYPES(TYPE_ICE, TYPE_GHOST),
+        .speciesName = _("Kammo"),
+        .categoryName = _("Terror"),
+
+    },
+
+    [SPECIES_TOSITELLA] =
+    {
+        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_GHOST),
+        .speciesName = _("Tositella"),
+        .categoryName = _("Delusion"),
+
+    }
 };
 
 const struct EggData gEggDatas[EGG_ID_COUNT] =

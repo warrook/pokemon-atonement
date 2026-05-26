@@ -139,7 +139,39 @@
 1. *P_FAMILY_FRIGIBAX     Ice/Dragon
 
 ## Fake
-1. Emotion parent        Psychic/Ghost
-1. Rage                  Fire/Ghost
-2. Rapture               Poison/Ghost
-3. Terror                Ice/Ghost
+> ## Files to touch when adding
+> See [tutorial](../tutorials/how_to_new_pokemon.md) for more info.
+> 
+> - 🗂️ [graphics/pokemon/`?`/](../../graphics/pokemon/): graphics files
+> - include/
+>   - constants/
+>       - [cries.h](../../include/constants/cries.h): cry ID from [sound/direct_sound_data.inc](../../sound/direct_sound_data.inc)
+>       - [pokedex.h](../../include/constants/pokedex.h): `NATIONAL_DEX_?` to `NationalDexOrder` and `NATIONAL_DEX_COUNT`; `HOENN_DEX_?` and `HOENN_DEX_COUNT`
+>       - [species.h](../../include/constants/species.h): `SPECIES_?` constant
+> - sound/
+>   - 🗂️ [direct_sound_samples/cries/](../../sound/direct_sound_samples/cries/): cry files, converted with [a command](../tutorials/how_to_new_pokemon.md#5-define-its-cry)
+>   - [cry_tables.inc](../../sound/cry_tables.inc): `cry` and `cry_reverse`
+>   - [direct_sound_data.inc](../../sound/direct_sound_data.inc): register cry `.bin`
+> - src/
+>   - data/
+>       - [graphics/pokemon.h](../../src/data/graphics/pokemon.h): register battle graphics and overworld graphics file paths
+>       - [object_events/object_event_pic_tables_followers.h](../../src/data/object_events/object_event_pic_tables_followers.h): register overworld graphics
+>       - pokemon/
+>           - [all_learnables.json](../../src/data/pokemon/all_learnables.json): teachable learnset
+>           - [pokedex_orders.h](../../src/data/pokemon/pokedex_orders.h): `NATIONAL_DEX_?`
+>           - [level_up_learnsets/gen_9.h](../../src/data/pokemon/level_up_learnsets/gen_9.h): level-up learnsets
+>           - [species_info.h](../../src/data/pokemon/species_info.h): `SPECIES_?` information
+>           - [form_species_table.h](../../src/data/pokemon/form_species_tables.h): species form table, if relevant
+>           - [form_change_tables.h](../../src/data/pokemon/form_change_tables.h): species form *change* table, if relevant (see [form_change_types.h](../../include/constants/form_change_types.h) for options)
+>   - [pokemon.c](../../src/pokemon.c): `HOENN_TO_NATIONAL(`?`)`
+> 
+> *According to documentation, this is* fewer *files than were once required to edit.*
+
+
+1. Grass starters
+2. Fire starters
+3. Water starters
+1. [Tosi](https://en.wiktionary.org/wiki/tosi#Finnish)[tella](https://en.wiktionary.org/wiki/-tella#Finnish)        Psychic/Ghost
+1. [Vimma](https://en.wiktionary.org/wiki/vimma#Finnish)                  Fire/Ghost
+2. [Hulluus](https://en.wiktionary.org/wiki/hulluus#Finnish)               Poison/Ghost
+3. [Kammo](https://en.wiktionary.org/wiki/kammo#Finnish)                Ice/Ghost
